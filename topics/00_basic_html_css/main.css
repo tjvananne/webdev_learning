@@ -1,0 +1,70 @@
+
+/* is this allowed? */
+* {
+    font-family: arial;
+    font-size: 13px;
+}
+
+body {
+    margin: 9px 8% 0px 8%;
+}
+
+
+#logo {
+    padding: 0px 20px 0px 10px;
+}
+
+#nav-container {
+    background: #f47a42;
+    padding: 4px;
+}
+
+#login-button {
+    float: right;
+    padding: 0px 10px 0px 0px;
+}
+
+#page-body {
+    padding: 15px 0px 0px 0px;
+    background: #eeeeee;
+}
+
+
+.nav-container__link {
+    color: black;
+    text-decoration:none;
+}
+
+
+.user-post {
+    padding: 3px 0px;
+}
+
+.user-post__count {
+    color: #777777;
+    padding: 0px 0px 0px 10px;
+    width: 17px;
+    display: inline-block;
+}
+
+.user-post__upvote {
+    color: #777777;
+}
+
+.user-post__title {
+    color: black;
+    text-decoration:none;
+    padding: 0px 0px 0px 10px;
+}
+
+.user-post__domain {
+    color: #777777;
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+}
+
+.user-post__votes {
+    margin: 0px 0px 0px 49px;
+    font-size: 11px;
+    color: #777777;
+}
