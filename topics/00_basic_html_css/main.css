@@ -14,10 +14,17 @@ body {
     padding: 0px 20px 0px 10px;
 }
 
+
 #nav-container {
+    display: inline-block;
+}
+
+
+#top-bar {
     background: #f47a42;
     padding: 4px;
 }
+
 
 #login-button {
     float: right;
@@ -67,4 +74,26 @@ body {
     margin: 0px 0px 0px 49px;
     font-size: 11px;
     color: #777777;
+}
+
+
+@media only screen and (max-width: 750px) {
+    body {
+        margin: 0px 0% 0px 0%;
+    }
+
+    #logo {
+        padding: 0px 20px 0px 0px;
+        display: block;
+    }
+
+    #nav-container {
+        background: #ff6c2d;
+        padding: 0px 0px 0px 20px;
+    }
+
+    #login-button {
+        padding: 5px 10px;
+    }
+
 }
